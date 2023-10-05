@@ -1,0 +1,26 @@
+.benImageContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+
+}
+.benImage {
+    object-fit: cover;
+    width: 100%;
+    border-radius: 5%;
+}
+
+/* Card.css */
+.benCardContainer {
+    width: 95%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .benName p {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 0.85rem;
+  }

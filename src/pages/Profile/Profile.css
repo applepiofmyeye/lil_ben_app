@@ -1,0 +1,40 @@
+.profilePhotoContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 40px 10px 40px;
+
+}
+.profilePhoto {
+    object-fit: cover;
+    width: 50%;
+    border-radius: 20%;
+}
+.profileMainContainer {
+    display: flex;
+
+    flex-direction: column;
+}
+
+.userName {
+    display: flex;
+    align-items: center;
+    justify-content: content;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.userName h1 {
+    margin-bottom: 0px;
+}
+
+.userName p {
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
+}
+
+.friendsLogo {
+    padding: 20px;
+}
+
+
