@@ -1,7 +1,7 @@
 import React from 'react'
 import CardList from '../../components/CardList/CardList'
 import './Profile.css'
-import { People } from 'react-ionicons'
+import { Link } from 'react-router-dom';
 
 export default function Profile() {
   const name = "Joey"
@@ -21,13 +21,17 @@ export default function Profile() {
       name: 'Jedi Lil Ben'
     }
   ]
+
   return (
     <div className='profileMainContainer'>
-      <People 
-        color={'#297381'}
-        height="40px"
-        width="40px" 
-        cssClasses="friendsLogo"/> 
+      <Link to="/friendsPage">
+        {/* <People 
+          color={'#297381'}
+          height="40px"
+          width="40px" 
+          cssClasses="friendsLogo"/>  */}
+      </Link>
+      
            
       <div className='profilePhotoContainer'>
       

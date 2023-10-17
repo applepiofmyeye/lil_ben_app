@@ -1,18 +1,19 @@
-.benImageContainer {
+@media (max-width: 768px) {
+  .benImageContainer {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 10px;
 
-}
-.benImage {
-    object-fit: cover;
-    width: 100%;
-    border-radius: 5%;
-}
+  }
+  .benImage {
+      object-fit: cover;
+      width: 100%;
+      border-radius: 5%;
+  }
 
-/* Card.css */
-.benCardContainer {
+  /* Card.css */
+  .benCardContainer {
     width: 95%;
     display: flex;
     align-items: center;
@@ -24,3 +25,4 @@
     margin-bottom: 10px;
     font-size: 0.85rem;
   }
+}

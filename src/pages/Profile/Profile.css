@@ -1,3 +1,6 @@
+/* For phone usage */
+
+@media (max-width: 768px) {
 .profilePhotoContainer {
     display: flex;
     justify-content: center;
@@ -48,5 +51,7 @@
 .friendsLogo {
     padding: 20px;
 }
+}
+
 
 

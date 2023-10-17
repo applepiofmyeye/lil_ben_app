@@ -1,7 +1,9 @@
-/* CardList.css */
-.cardList {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Two cards in each row */
-    align-items: center;    
-    justify-items: center;
+@media (max-width: 768px) {
+    /* CardList.css */
+    .cardList {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* Two cards in each row */
+        align-items: center;    
+        justify-items: center;
+    }
 }
