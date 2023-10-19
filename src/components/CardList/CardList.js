@@ -10,6 +10,7 @@ function CardList({cardData}) {
         <BenCard
           id={ben.id}
           name={ben.name}
+          desc={ben.desc}
         />
       ))}
     </div>

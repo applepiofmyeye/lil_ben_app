@@ -1,0 +1,15 @@
+
+@font-face {
+    font-family: 'SuperDessert';
+    src: url('../public/assets/fonts/Super\ Dessert.ttf') format('sans-serif');
+    font-weight: lighter;
+    font-style: normal;
+  }
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('../public/assets/fonts/Poppins-SemiBold.ttf');
+  font-weight: 400;
+  font-style: normal;
+}
+  

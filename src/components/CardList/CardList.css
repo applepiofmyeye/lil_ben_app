@@ -1,8 +1,8 @@
 @media (max-width: 768px) {
     /* CardList.css */
     .cardList {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr); /* Two cards in each row */
+        display: flex;
+        flex-direction: column;
         align-items: center;    
         justify-items: center;
     }
