@@ -1,9 +1,0 @@
-@media (max-width: 768px) {
-    /* CardList.css */
-    .cardList {
-        display: flex;
-        flex-direction: column;
-        align-items: center;    
-        justify-items: center;
-    }
-}

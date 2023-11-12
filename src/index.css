@@ -1,13 +1,33 @@
+@font-face {
+  font-family: 'Lato';
+  src: url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('../public/assets/fonts/Poppins-SemiBold.ttf');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Itim';
+  src: url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+  font-weight: 400;
+  font-style: normal;
+}
+  
 
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family:'Itim', cursive;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #FFFBF2;
+  color: #d0dff8;
+  background-color: #659DBD;
 
 }
 
