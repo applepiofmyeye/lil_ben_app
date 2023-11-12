@@ -66,7 +66,7 @@ export default function Root() {
           <div className="socialsDiv">
             {socials.map(x => {
               return (
-                <Link to={x.link} style={{textDecoration: "none",  display: "flex", alignItems: "center", justifyContent: "center" }}>
+                <Link to={x.link} style={{textDecoration: "none",  display: "flex", alignItems: "center", justifyContent: "center"}}>
                   <div className="linkContainer">
                   <p>
                   {x.name + ": " + x.user}

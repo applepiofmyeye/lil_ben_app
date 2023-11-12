@@ -117,8 +117,20 @@ h3 {
     width: 70%;
     padding: 6px;
     margin-bottom: 1rem;
-    border-radius: 1.2rem;
-  }
+    border-radius: 1.4rem;
+    border-bottom-width: 6px;
+    border-right-width: 4px;
+    border-color: rgb(57, 86, 144); /* Use a color that contrasts with the background */
+    border-style: solid;
+    transition: border-width 0.2s; /* Apply the transition to border-width property */
+}
+
+.linkContainer:hover {
+    padding-top: 2px;
+  border-bottom-width: 2px;
+  border-right-width: 2px;
+}
+
 
   .linkContainer p {
     color: rgb(63, 118, 118);
