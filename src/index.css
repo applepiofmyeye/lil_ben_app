@@ -18,7 +18,16 @@
   font-weight: 400;
   font-style: normal;
 }
-  
+
+:root {
+  --background-colour: #659DBD;
+  --font-colour: #d0dff8;
+  --accent-colour: rgb(57, 86, 144);
+  --font-lato: 'Lato', sans-serif;
+  --font-poppins: 'Poppins', sans-serif;
+  --font-itim: 'Itim', sans-serif;
+}
+
 
 
 body {

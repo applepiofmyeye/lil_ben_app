@@ -8,6 +8,7 @@ import Root from "./routes/root";
 import "./index.css";
 import ErrorPage from "./error-page";
 import User from "./routes/users";
+import Login from "./routes/Login";
 
 const router = createBrowserRouter([
   {
@@ -20,6 +21,11 @@ const router = createBrowserRouter([
       element: <User/>
     }]
   },
+  {
+    path: "/login",
+    element: <Login/>,
+    errorElement: <ErrorPage/>,
+  }
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(

@@ -8,7 +8,7 @@ export default function Root() {
   const [numSuffix, setNumSuffix] = useState("th");
 
   const numOfBensAddOne = () => {
-    setNumberOfBens(num => num + 1);
+    setNumberOfBens(num => num + 5);
   }
   
   const socials = [
@@ -57,12 +57,12 @@ export default function Root() {
     return (
       <>
         <div id="sidebar">
-          <h1>Thank you for your support!</h1>
-          <p>We are currently in the process of building Lil Ben's Universe! Thank you for being the...</p>
-          <ReactOdometer value={numberOfBens}></ReactOdometer><text>{" " + numSuffix}</text>
-          {/* <br></br><button onClick={()=> numOfBensAddOne()}>Press</button> */}
-          <p>...Lil Ben supporter! <br/><br/>Thanks to your help, we will be able to continue this project and build our dream game, Lil Ben's Universe. <br/> As our first supporters, you will have early-bird access to our game when launched, <br/> with exclusive early-bird gifts as well. </p>
-          <h3>Let's keep in touch!</h3>
+          <h1>Hi!</h1>
+          <p>We are currently in the process of building Lil Ben's Universe! Thank you for supporting Lil Ben! 
+            <br/>
+            <br/>
+            Thanks to your help, we will be able to continue this project and build our dream game –– <b>Lil Ben's Universe</b>. </p>          
+            <h3>Let's keep in touch!</h3>
           <div className="socialsDiv">
             {socials.map(x => {
               return (
@@ -77,6 +77,7 @@ export default function Root() {
             })}
 
           </div>
+          
           
         <Outlet />
         <div className="contactUsDiv">
